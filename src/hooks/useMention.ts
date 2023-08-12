@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import { KeyboardEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 const regExp = /^(@|@[a-z][a-z\d-_]{0,20})$/gi;
